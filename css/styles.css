@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+/* Landing Page*/
+
+.navbar-nav a{
+  color: #F3F3F3 !important;
+}
+
+.navbar-nav a:hover{
+  color: #D2D5DB !important;
+  font-weight: 700;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url('../images/hero2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+
+.jumbotronText {
+    font-family: Rokkitt; 
+    font-size: 30px; 
+    font-style: normal; 
+    line-height: 15px; 
+    margin-top: 15%;
+    color: white;
+} 
+
+.jumbotronText hr {
+    height: 2%;
+} 
+
+.btn-primary-outline, .btn-primary-outline:visited, .btn-primary-outline:active, .btn-primary-outline:focus { 
+    border-color: #F3F3F3;
+    color: #F3F3F3;
+    width: 50%;
+    box-shadow: none;
+  }
+
+  .btn-primary-outline:hover { 
+    border-color: #608080;
+    color: #608080;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+
+  .btn-primary-outline2, .btn-primary-outline2:visited, .btn-primary-outline2:active, .btn-primary-outline2:focus { 
+    border-color: #608080;
+    color: #608080;
+    box-shadow: none;
+
+  }
+
+  .btn-primary-outline2:hover { 
+    border-color: #608080;
+    color: #608080;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+
+
+/* About Section*/
+#aboutSection {
+    text-align: left;
+    margin: 10%;
+    font-family: sofia-pro, sans-serif;
+    font-style: Semi Bold ;
+    font-weight: 100;
+  }
+
+  #aboutSection a {
+    text-decoration: none;
+    color: #608080;
+  }
+
+  .name {
+    color: #608080;
+  }
+
+
+  /* College Section*/
+  .collegeImg{
+    width:70%;
+  }
+
+#education {
+    margin: 10%;
+    font-family: sofia-pro, sans-serif;
+    font-style: Semi Bold ;
+    font-weight: 100;
+    text-align: center;
+
+  }
+
+  .accordion {
+    border: none;
+  }
+
+  .grades{
+    color: #608080;
+  }
+
+  .projectLink{
+    text-decoration: none;
+  }
+
+  .card-header {
+    background-color: rgb(243, 243, 243);
+  }
+
+  .card-body {
+    background-color: #608080;
+    color: rgb(243, 243, 243);;
+  }
+  
+
+ .btn-link, .btn-link:active,.btn-link:focus{
+    text-decoration: none;
+    color: #608080;
+    box-shadow: none;
+  }
+
+  .btn-link:hover {
+    text-decoration: none;
+    color: #608080;
+    box-shadow: none;
+    font-weight: 800;
+  }
+
+
+
+
+

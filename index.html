@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!--Hero Section-->
+  
+  <div id="homeSection">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutSection">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Work Experience</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Hobbies</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="row text-center">
+      <div class="jumbotronText">
+        <h2>Graham Carney</h2>
+        <hr>
+        <h2>Software Developer</h2>
+        <br>
+        <p class="lead">
+          <button type="button" class="btn btn-primary-outline" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contact Me</button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Send me an Email!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="sender-name" class="col-form-label">Enter your Name</label>
+              <input type="text" class="form-control" id="sender-name">
+            </div>
+            <div class="form-group">
+              <label for="sender-email" class="col-form-label">Enter your Email</label>
+              <input type="text" class="form-control" id="sender-email">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary-outline2"  data-dismiss="modal">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+  <!--About Section-->
+
+  <div id="aboutSection">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/thailand.jpg" alt="Thailand">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/thailand1.jpg" alt="Second slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2> <span class ='name'>Hi, I'm Graham</span></h2>
+        <br>
+        <p>I am a fourth year Computer Science student in Dublin, Ireland. I am studying at Technological Univeristy
+          Dublin. Before enrolling in my course I studied Multimedia for two years where I developed a passion for HTML,
+          CSS and programming as I was using ActionScript for certain projects. When I finished my course I had the
+          option to further study Multimedia in a 4 year degree but wanted a bigger challenge and opted to do Computer
+          Science in TUD. In 2020 I interned as a Software Engineer for a start up company in Dublin called <a href = "https://fathomtech.io/" target="_blank"><strong>Fathom Tech</strong></p></a>
+        <p>When I am not working on my computer for college related projects I love to spend as much time as possible in
+          the outdoors and take any opporunity I can to visit different parts of the world and see different cultures.
+        </p>
+
+        <a href="https://drive.google.com/file/d/19HWJoUUZEqmiKj6hQq3wd2-O8Ruo5ZV5/view?usp=sharing" target="_blank"><button type="button" class="btn btn-primary-outline2">View My CV</button></a>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <hr>
+
+  <!--Education Section-->
+  <div id='education'>
+    <div class="row">
+      <div class="col-md-12">
+        <span class ='grades'><h3>Click a year to see my grades</h3></span>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/college.png" class='collegeImg' maxWidth="500px">
+      </div>
+      <div class="col-md-6">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                  aria-controls="collapseOne">
+                  Year 1
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+
+                <strong><p>Semester 1</p></strong>
+                <br>
+                Software Development 1: B+
+                <br>
+                Computer Architecture: B
+                <br>
+                Fundamentals of Interface & Web: B+
+                <br>
+                Business & Information Systems: B
+                <br>
+                Discrete Mathematics 1: B
+                <br>
+                Learning to Learn at 3rd Lvl: A
+                <br>
+                <br>
+                <strong><p>Semester 2</p></strong>
+                <br>
+                Software Development 2: B-
+                <br>
+                Object Oriented System Analysis: B
+                <br>
+                Social Media Communications: C+
+                <br>
+                Statistics: B
+                <br>
+                Database Fundamentals: B
+                <br>
+                Operating System Fundamentals: B
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Year 2
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <strong><p>Semester 3</p></strong>
+                <br>
+                Software Development 3: B-
+                <br>
+                Software Quality Assurance & Testing: A
+                <br>
+                Network Fundamentals: B+
+                <br>
+                Advanced Database Technologies: B-
+                <br>
+                Discrete Mathematics 2: B+
+                <br>
+                Client Side Web Development: B+
+                <br>
+                <br>
+                <strong><p>Semester 4</p></strong>
+                <br>
+                Software Development 4: B-
+                <br>
+                Project: B
+                <br>
+                Routing & Switching Essentials: B+
+                <br>
+                Management Science: A
+                <br>
+                Database Admin & Analysis: C
+                <br>
+                Information Security: C
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Year 3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <strong><p>Semester 5</p></strong>
+                <br>
+                Operating Systems: C
+                <br>
+                Data Structures & Algorithms: C
+                <br>
+                Server-side Web Development: B-
+                <br>
+                Cloud Service & Distributed Computing: C
+                <br>
+                Big Data Technologies: C
+                <br>
+                Data Analysis: D
+                <br>
+                <br>
+                <strong><p>Semester 6</p></strong>
+                <br>
+                Experiental Learning: Pass
+                <br>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Year 4
+                  </button>
+                </h5>
+              </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                <p>In Progress</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <a href="Brauhaus" target="_blank"><button type="button" class="btn btn-primary-outline2">View Year 2 Project</button></a>
+    </div>
+  </div>
+  </div>
+
+
+
+  </div>
+
+
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+
+
+</body>
+
+</html>
