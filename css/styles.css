@@ -146,7 +146,7 @@ body {
 
 
 
-    .fa-js, .fa-java, .fa-html5, .fa-css3-alt, .fa-react{
+    .fa-js, .fa-java, .fa-html5, .fa-css3-alt, .fa-react, .fa-node, .fa-android{
       font-size: 80px; 
       padding: 2%;
       margin-top: 2%;
@@ -178,6 +178,26 @@ body {
       font-size: 85px; 
     }
 
+    .fa-node:hover{
+      color:  #3C873A;
+      font-size: 85px; 
+    }
+
+    .fa-android:hover{
+      color:  #32DE84;
+      width: 85px; 
+    }
+
+    .photoshop, .figma, .illustrator {
+      width: 150px;
+      padding: 2%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+
+
+
 
 
   /* Footer */
@@ -193,6 +213,13 @@ body {
     color:rgb(243, 243, 243);
     font-family: Rokkitt; 
     font-size: 30px; 
+    font-style: normal; 
+  }
+
+  .footerText2{
+    color:rgb(243, 243, 243);
+    font-family: Rokkitt; 
+    font-size: 20px; 
     font-style: normal; 
   }
 

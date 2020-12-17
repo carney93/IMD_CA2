@@ -15,3 +15,21 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     var modal = $(this)
     modal.find('.modal-title').text('Send me an email')
   })
+
+  //hide design skills on load
+  $(document).ready(function(){    
+    $('#designSkills').hide(); 
+});
+
+  //hides skills
+  function myFunction() {
+    var x = document.getElementById("codeSkills");
+    var y = document.getElementById("designSkills");
+    if (y.style.display === "none") {
+      y.style.display = "block";
+      x.style.display = "none";
+    } else{
+      x.style.display = "block";
+      y.style.display = "none";
+    }
+  }
