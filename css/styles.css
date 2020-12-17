@@ -134,6 +134,52 @@ body {
     font-weight: 800;
   }
 
+
+    /* Skills */
+    #skills {
+      margin: 10%;
+      font-family: sofia-pro, sans-serif;
+      font-style: Semi Bold ;
+      font-weight: 100;
+      text-align: center;
+    }
+
+
+
+    .fa-js, .fa-java, .fa-html5, .fa-css3-alt, .fa-react{
+      font-size: 80px; 
+      padding: 2%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    .fa-js:hover {
+      color: #f7df1e;
+      font-size: 85px; 
+    }
+
+    .fa-java:hover {
+      color: #f89820;
+      font-size: 85px; 
+    }
+
+    .fa-html5:hover {
+      color: #e34c26;
+      font-size: 85px; 
+    }
+
+    .fa-css3-alt:hover {
+      color:  #264de4;
+      font-size: 85px; 
+    }
+
+    .fa-react:hover {
+      color:  #61DBFB;
+      font-size: 85px; 
+    }
+
+
+
   /* Footer */
 
 
@@ -150,10 +196,14 @@ body {
     font-style: normal; 
   }
 
-  .fa-facebook, .fa-linkedin, .fa-twitter-square{
+ .fa-linkedin, .fa-twitter-square{
     color:rgb(243, 243, 243);
     font-size: 30px; 
     padding: 2%
+  }
+
+  .fa-linkedin:hover, .fa-twitter-square:hover{
+    font-size: 32px; 
   }
 
 
