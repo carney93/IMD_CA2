@@ -134,7 +134,27 @@ body {
     font-weight: 800;
   }
 
+  /* Footer */
 
+
+  footer {
+    background-color: #608080;
+    padding: 5%;
+    text-align: center;
+  }
+
+  .footerText{
+    color:rgb(243, 243, 243);
+    font-family: Rokkitt; 
+    font-size: 30px; 
+    font-style: normal; 
+  }
+
+  .fa-facebook, .fa-linkedin, .fa-twitter-square{
+    color:rgb(243, 243, 243);
+    font-size: 30px; 
+    padding: 2%
+  }
 
 
 
